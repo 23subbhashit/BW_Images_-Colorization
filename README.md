@@ -31,3 +31,7 @@ python model.py
 ```
 python predict.py
 ```
+## Architecture Used
+
+![download (3)](https://user-images.githubusercontent.com/43717493/103136015-bc431c00-46e2-11eb-8766-f179c85b03f5.png)
+
