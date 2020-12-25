@@ -10,7 +10,6 @@ from skimage.transform import resize
 
 model = load_model('../models/weights_ImageColorization.hdf5')
 
-#i=cv2.imread("C:/DjangoProjects/BW_Images_-Colorization/google-images-download/images/national_park,dog_park_/1.jpg")
 img1_color=[]
 
 img1=img_to_array(load_img("C:/DjangoProjects/BW_Images_-Colorization/google-images-download/images/national_park,dog_park_/3.jpg"))
