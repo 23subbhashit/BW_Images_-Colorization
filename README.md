@@ -1,4 +1,4 @@
-# BW_Images_-Colorization
+# BW_Images_Colorization
 A image colorization project built using keras/tensorflow
 
 ## Data Collection
@@ -14,4 +14,20 @@ pip install selenium
 git clone https://github.com/ultralytics/google-images-download
 cd google-images-download
 python bing_scraper.py --search "topic to search" --limit 100 --download --chromedriver "C:\path\to\chromedriver.exe"
+```
+
+## Data Preprocessing 
+
+```
+python datapreprocessing.py
+```
+## Model Making
+
+```
+python model.py
+```
+## Testing
+
+```
+python predict.py
 ```
