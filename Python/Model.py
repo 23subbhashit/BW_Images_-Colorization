@@ -7,9 +7,8 @@ import numpy as np
 
 X = np.load("../Data/X_values.npy")
 Y = np.load("../Data/Y_values.npy")
-
-X=X/128
 Y=Y/128
+
 print(X.shape,Y.shape)
 X = X.reshape(X.shape+(1,)) #dimensions to be the same for X and Y
 print(X.shape,Y.shape)
@@ -40,4 +39,4 @@ model.summary()
 
 filepath="../models/weights_ImageColorization.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
-history=model.fit(X,Y,batch_size=16,epochs=5,verbose=1,validation_split=0.1,callbacks=[checkpoint])
+history=model.fit(X,Y,batch_size=16,epochs=10,verbose=1,validation_split=0.1,callbacks=[checkpoint])
