@@ -33,5 +33,5 @@ python predict.py
 ```
 ## Architecture Used
 
-![download (3)](https://user-images.githubusercontent.com/43717493/103136015-bc431c00-46e2-11eb-8766-f179c85b03f5.png)
+![B07777_08_24](https://user-images.githubusercontent.com/43717493/103136118-9702dd80-46e3-11eb-90d9-54f87fbfa817.png)
 
