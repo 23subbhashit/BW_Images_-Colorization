@@ -17,7 +17,7 @@ newmodel =load_model("../models/weights_newmodel_VGG19.hdf5")
 
 print(model.summary())
 
-test = img_to_array(load_img("C:/DjangoProjects/BW_Images_-Colorization/google-images-download/images/national_park,dog_park_/4.jpg"))
+test = img_to_array(load_img("C:/DjangoProjects/BW_Images_-Colorization/google-images-download/images/national_park,dog_park_/5.jpg"))
 test = resize(test, (256,256), anti_aliasing=True)
 test*= 1.0/255
 lab = rgb2lab(test)
@@ -32,4 +32,4 @@ ab = ab*128
 cur = np.zeros((256, 256, 3))
 cur[:,:,0] = l
 cur[:,:,1:] = ab
-imsave("../Results/result4_VGG16.png", lab2rgb(cur))
+imsave("../Results/result5_VGG16.png", lab2rgb(cur))

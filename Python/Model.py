@@ -39,4 +39,4 @@ model.summary()
 
 filepath="../models/weights_ImageColorization.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
-history=model.fit(X,Y,batch_size=16,epochs=10,verbose=1,validation_split=0.1,callbacks=[checkpoint])
+history=model.fit(X,Y,batch_size=16,epochs=5,verbose=1,validation_split=0.1,callbacks=[checkpoint])

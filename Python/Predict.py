@@ -12,7 +12,7 @@ model = load_model('../models/weights_ImageColorization.hdf5')
 
 img1_color=[]
 
-img1=img_to_array(load_img("C:/DjangoProjects/BW_Images_-Colorization/google-images-download/images/national_park,dog_park_/4.jpg"))
+img1=img_to_array(load_img("C:/DjangoProjects/BW_Images_-Colorization/google-images-download/images/national_park,dog_park_/5.jpg"))
 img1 = resize(img1 ,(256,256))
 img1_color.append(img1)
 
@@ -27,4 +27,4 @@ result = np.zeros((256, 256, 3))
 result[:,:,0] = img1_color[0][:,:,0]
 result[:,:,1:] = output1[0]
 imshow(lab2rgb(result))
-imsave("../Results/result4.png", lab2rgb(result))
+imsave("../Results/result5.png", lab2rgb(result))
