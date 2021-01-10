@@ -35,3 +35,20 @@ python predict.py
 
 ![B07777_08_24](https://user-images.githubusercontent.com/43717493/103136118-9702dd80-46e3-11eb-90d9-54f87fbfa817.png)
 
+## Results
+
+<table>
+  <thead>
+    <tr>
+      <th>Input</th>
+      <th>Output</th>
+    </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td><img align="left" alt="" src="https://user-images.githubusercontent.com/43717493/104124997-03373f80-537a-11eb-945a-7baffa180d36.jpg" width="256px" height="256px" /></td>
+       <td><img align="left" alt="" src="https://user-images.githubusercontent.com/43717493/104124983-f87caa80-5379-11eb-86de-16ff33111492.png" /></td>
+     </tr>
+  </tbody>
+</table>
+
